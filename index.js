@@ -84,7 +84,7 @@ app.delete('/api/producto/:productoId', (req, res) => {
 });
 
 // server connect
-mongoose.connect('mongodb://localhost:27017/productoyzm', (error, res) => {
+mongoose.connect('mongodb://localhost:27017/productostg2020', (error, res) => {
     if (error) {
         return console.log(`ERROR al conectar DB: ${error}`)
     }
